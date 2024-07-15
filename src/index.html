@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Movie List</title>
+  </head>
+  <body>
+    <h1>Movie List</h1>
+    <ul class="list"></ul>
+    <div class="addmovie">
+      <form class="form">
+        <input name="title" class="title" type="text" placeholder="Title" />
+        <input name="genre" class="genre" type="text" placeholder="Genre" />
+        <input name="director" class="director" type="text" placeholder="Director" />
+        <input name="year" class="year" type="text" placeholder="Year" />
+        <button class="submit" type="submit">Add Movie</button>
+      </form>
+    </div>
+
+    <div class="change change__invisible">
+      <form class="change__form">
+        <button class="button__closemodal" type="button">close</button>
+        <input name="changeid" class="change__id" placeholder="New ID" type="text" />
+        <input name="changetitle" class="change__title" placeholder="New Title" type="text" />
+        <input name="changegenre" class="change__genre" placeholder="New Genre" type="text" />
+        <input name="changedirector" class="change__director" placeholder="New Director" type="text" />
+        <input name="changeyear" class="change__year" placeholder="New Year" type="text" />
+        <button type="submit" class="change__button">Change</button>
+      </form>
+    </div>
+    
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
