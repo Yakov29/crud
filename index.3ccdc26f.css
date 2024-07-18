@@ -1,0 +1,2 @@
+ul{flex-wrap:wrap;gap:70px;list-style:none;display:flex}li{text-align:center;padding:10px;box-shadow:3px 5px 10px 8px gray}img{width:250px}h2{text-align:center}.change{-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);opacity:1;z-index:1;background-color:#80808080;position:fixed;inset:0}.change__form{flex-direction:column;gap:20px;width:100px;height:100px;margin-top:400px;margin-left:auto;margin-right:auto;display:flex}.change__invisible{opacity:0;pointer-events:none}
+/*# sourceMappingURL=index.3ccdc26f.css.map */
